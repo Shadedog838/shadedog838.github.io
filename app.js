@@ -2,20 +2,6 @@ const sections = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll("controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
-const modal = document.querySelector(".modal");
-const closeButton = document.querySelector(".close-button");
-const modalText = document.getElementById("modal-txt");
-
-// function validateForm() {
-//   modalText.innerHTML =
-//     "Thank you " +
-//     document.forms["contactForm"]["name"].value +
-//     " for your submission, I will be in contact with your shortly!";
-//   modal.classList.toggle("show-modal");
-//   let form = document.getElementById('form');
-//   form.reset();
-//   return true;
-// }
 
 function PageTransitions() {
   // Button click active class
