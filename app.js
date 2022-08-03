@@ -41,16 +41,6 @@ function PageTransitions() {
     let element = document.body;
     element.classList.toggle("light-mode");
   });
-
-  closeButton.addEventListener("click", () => {
-    modal.classList.toggle("show-modal");
-  });
-
-  window.addEventListener("click", (event) => {
-    if (event.target === modal) {
-      modal.classList.toggle("show-modal");
-    }
-  });
 }
 
 PageTransitions();
