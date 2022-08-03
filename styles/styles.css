@@ -711,7 +711,7 @@ section {
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem 1.5rem;
-  width: 24rem;
+  width: 40rem;
   border-radius: 0.5rem;
   color: var(--color-grey-4);
 }
@@ -897,6 +897,9 @@ section {
 @media screen and (max-width: 970px) {
   .section {
     padding: 7rem 6rem;
+  }
+  .modal-content {
+    width: 24rem;
   }
   header {
     padding: 0;
